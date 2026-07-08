@@ -807,5 +807,58 @@ setTimeout(fabShow,600);setTimeout(fabShow,2000);
 })();
 </script>
 <!--WY-SEARCH:END-->
+<!--WY-C46P1:BEGIN-->
+<style id="wy-c46p1-css">
+.c46p1-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c46p1-fabbox.show{display:block;}
+.c46p1-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c46p1-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c46p1-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c46p1-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c46p1-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c46p1-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c46p1-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c46p1-modal.open{display:flex;}
+.c46p1-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c46p1-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c46p1-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c46p1-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c46p1-close:hover{background:#e3d5b8;}
+.c46p1-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c46p1-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c46p1-tbl th,.c46p1-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c46p1-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c46p1-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c46p1-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c46p1-tbl b{color:#8b2500;}
+.c46p1-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c46p1-note b{color:#8b2500;}
+@media(max-width:900px){.c46p1-fabbox{right:14px;}.c46p1-tbl{font-size:11.5px;}.c46p1-card{padding:26px 14px 16px;}}
+</style>
+<div class="c46p1-fabbox" id="c46p1Box"><button class="c46p1-btn" id="c46p1Btn" type="button" aria-label="開啟全景總表"><span class="c46p1-ic">▦</span><span class="c46p1-ls"><span class="c46p1-l1">本品 · 乘乘品第十六</span><span class="c46p1-l2">三階破執車輿喻 · 假名分形與中論四句映射</span></span></button></div><div class="c46p1-modal" id="c46p1Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c46p1-card"><button class="c46p1-close" id="c46p1Close" type="button" aria-label="關閉">×</button><h3>卷四十六·第1品 乘乘品（第十六）· 全景總表</h3><p class="sub">卷四十六・第1品｜富樓那三事說・三階破執矩陣・畢竟清淨六波羅蜜・中論四句同源映射</p><table class="c46p1-tbl"><caption>一、富樓那三事說與經文五段答（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三事總綱</td><td>舍利弗問富樓那「云何名菩薩摩訶薩乘於大乘」，接續已答之「眾生之上」「為大事故」二事——三事一體：位（眾生之上）、事（為大事故）、行（乘於大乘），缺一則摩訶薩之名不能立</td></tr><tr><td>答相一·六度無所得</td><td>乘檀波羅蜜乃至般若波羅蜜，亦不得檀、不得菩薩、不得受者，用無所得故——三輪體空是六度「成大乘」之檢驗點</td></tr><tr><td>答相二·法壞不可得</td><td>一心應薩婆若修四念處乃至十八不共法，法壞故是亦不可得——<b>法空義在此首度明確出場</b></td></tr><tr><td>答相三·菩薩但有名字</td><td>菩薩但有名字，眾生不可得故——由「修法不可得」推進到「能修者亦假名」，是假名觀的根本依據</td></tr><tr><td>答相四·萬法但有名字</td><td>五蘊、六根、六波羅蜜、十八空、四念處乃至十八不共法、法性實際、阿耨多羅三藐三菩提及佛皆但有名字——連最神聖的終極目標亦不應實執</td></tr><tr><td>答相五·十方遊化轉法輪</td><td>具足菩薩神通，從一佛國至一佛國，初無佛國想亦無眾生想，住不二法中轉大法輪，十方諸佛同聲讚歎</td></tr></tbody></table><table class="c46p1-tbl"><caption>二、論主三階破執與本體論矩陣</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>第一階·大莊嚴</td><td>直布施內外物，能施之我、所施之物、能受之人三相分明——不能破吾我相，是有我之施，屬世間善法層次</td></tr><tr><td>第二階·發大莊嚴</td><td>能破吾我相入眾生空，未入法空——已知無我但仍有「有法可修」的法執，是聲聞辟支佛所達之邊際</td></tr><tr><td>第三階·乘於大乘</td><td>因眾生空入法空中，行檀波羅蜜不見三事（施者受者財物），雙空具足三輪體空，是畢竟清淨、摩訶衍</td></tr><tr><td>本體論矩陣</td><td>以我相／法相／修行果地三維交織：大莊嚴（我相實有・法相實有・世間善法）→發大莊嚴（我相空・法相實有・二乘出世間初步）→乘於大乘（我相空・法相空・畢竟清淨摩訶衍）</td></tr><tr><td>不雜心</td><td>以不雜心離諸煩惱及二乘意，為薩婆若故修行四念處，修相亦不可得畢竟清淨故——<b>不雜心是純粹指向一切種智的認知向量</b></td></tr><tr><td>住不二入地</td><td>具足菩薩神通成就眾生，不生眾生相不取佛國相，智不取相、悲不廢度生，真空妙有於此支點達到平衡</td></tr></tbody></table><table class="c46p1-tbl"><caption>三、中觀大圓滿與傳法心法</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>中論四句偈</td><td>眾因緣生法・我說即是空・亦為是假名・亦是中道義——龍樹中觀學根本綱領，本品乘大乘論述是此四維的具體展開</td></tr><tr><td>映射一·因緣</td><td>對應菩薩具足神通、變身無數、雨七寶蓮華度脫眾生——菩薩萬行本質是緣起現象</td></tr><tr><td>映射二·空</td><td>對應入眾生空入法空、法壞故不可得——三階破執正是「我說即空」之深淺展開</td></tr><tr><td>映射三·假名</td><td>對應知一切法假名字，名字和合中復有名字——假名不是標籤而是無底的分形遞迴</td></tr><tr><td>映射四·中道</td><td>對應不生眾生相不取佛國相、住不二入地中——真空與妙有同時具足，不偏有不偏空</td></tr><tr><td>空性魔術師心法</td><td>知（道具與自己皆假）→全心演出（變身莊嚴）→心不迷失（常乘大乘初無休息），三重認知視角缺一則退為凡夫、二乘或退失菩提心</td></tr></tbody></table><p class="c46p1-note">本品以富樓那五段答語層層剝除「能行」「所行」之實執——從六度無所得起步，經三十七道品、十八不共法的法空，推進到「菩薩但有名字」的假名觀，最終擴及五蘊乃至阿耨多羅三藐三菩提皆但有名字，連最神聖的佛果亦不容實執。論主三階破執（大莊嚴／發大莊嚴／乘於大乘）將此歷程收攝為我相法相雙泯的本體論階梯，而「大乘名畢竟清淨六波羅蜜」一句總攝全品：非離六度別覓大乘，乃於無所得中行六度、於六度上行而無所得。此與《中論》「眾因緣生法，我說即是空，亦為是假名，亦是中道義」四句偈完全同構——龍樹兩部代表作，一為形上學根基，一為菩薩道實踐，於「乘於大乘」一義中完成同源閉環。</p></div></div>
+<script id="wy-c46p1-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c46p1Btn"),BOX=document.getElementById("c46p1Box"),MODAL=document.getElementById("c46p1Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=0;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c46p1Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C46P1:END-->
 </body>
 </html>
