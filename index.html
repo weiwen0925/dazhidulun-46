@@ -913,5 +913,58 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C46P2:END-->
+<!--WY-C46P3:BEGIN-->
+<style id="wy-c46p3-css">
+.c46p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c46p3-fabbox.show{display:block;}
+.c46p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c46p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c46p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c46p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c46p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c46p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c46p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c46p3-modal.open{display:flex;}
+.c46p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c46p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c46p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c46p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c46p3-close:hover{background:#e3d5b8;}
+.c46p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c46p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c46p3-tbl th,.c46p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c46p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c46p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c46p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c46p3-tbl b{color:#8b2500;}
+.c46p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c46p3-note b{color:#8b2500;}
+@media(max-width:900px){.c46p3-fabbox{right:14px;}.c46p3-tbl{font-size:11.5px;}.c46p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c46p3-fabbox" id="c46p3Box"><button class="c46p3-btn" id="c46p3Btn" type="button" aria-label="開啟全景總表"><span class="c46p3-ic">▦</span><span class="c46p3-ls"><span class="c46p3-l1">本品 · 大莊嚴品</span><span class="c46p3-l2">無大莊嚴為大莊嚴 · 自相空非作非不作與不縛不解</span></span></button></div><div class="c46p3-modal" id="c46p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c46p3-card"><button class="c46p3-close" id="c46p3Close" type="button" aria-label="關閉">×</button><h3>卷四十六·第3品 大莊嚴品 · 全景總表</h3><p class="sub">卷四十六・第3品｜自相空・非作非不作・無縛無脫三主題・三重破執境界・中論四句對位</p><table class="c46p3-tbl"><caption>一、三大主題與破執三重境界</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>核心命題</td><td>須菩提白佛「菩薩摩訶薩無大莊嚴為大莊嚴，諸法自相空故」——以否定形式揭示真大莊嚴，對治「神聖難及」與「實有可作」二種退心</td></tr><tr><td>主題一·自相空</td><td>色受想行識、六根六塵六識、六波羅蜜、十八空、四念處乃至十八不共法、菩薩——所有法皆自相即空，非觀察破之而後空，乃法之本相即空</td></tr><tr><td>主題二·非作非不作</td><td>作者不可得、所作法亦不可得，故一切法皆非作非不作——雙遮：不能說有作（違空）亦不能說不作（落斷）</td></tr><tr><td>主題三·無縛無脫</td><td>凡夫法虛誑不可得故非縛，聖人法畢竟空不可得故非解——住此無縛無脫之中行菩薩道即是大莊嚴</td></tr><tr><td>三重破執境界</td><td>心理層（莊嚴退心→自相空）、存有論層（有所造作→無作法）、解脫論層（迷縛謬解→無縛無脫），層層深入破執愈深莊嚴愈大</td></tr><tr><td>論辯人物三角</td><td>佛陀（終極權威，印可並深化至無作法）、須菩提（方便說法者，空故易行橋接）、富樓那（嚴厲詰問者，誰縛誰解逼問）</td></tr></tbody></table><table class="c46p3-tbl"><caption>二、六重破執與凡聖二法無縛無解</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>六重破執結構</td><td>龍樹以問答辯證法破除聽者六重疑情：自相空本身→作者不可得→如幻有來去相→十八空有作→如法性實際真實→菩薩佛一切種智是實法</td></tr><tr><td>核心收束句</td><td><b>作相因緣生故</b>——所有「作」之相皆為因緣假合而生，既為因緣生則無自性、不可得、無所作，一切作相皆為因緣假立</td></tr><tr><td>凡聖二破</td><td>凡夫人法虛誑不可得故非縛；聖人法畢竟空不可得故非解——凡夫法是「虛誑不可得」（執相而落虛妄），聖人法是「畢竟空不可得」（無相而本自寂然）</td></tr><tr><td>不縛不解雙重涵義</td><td>住是道中諸煩惱不牽墮凡夫中故言不縛（入世而不染）；不以諸無漏法破煩惱故言不解（證空而不證，留惑潤生）</td></tr><tr><td>三乘心法診斷矩陣</td><td>凡夫執煩惱為實故被縛（執著為縛）；二乘急於破煩惱逃離三界（執著為解）；菩薩知諸法無所有故不縛不解（無縛無脫留惑度生）</td></tr><tr><td>廣行利生</td><td>教化眾生、淨佛世界、五神通五眼、陀羅尼三昧門、諸佛不離、安立三乘，一切皆於無縛無脫中進行——外現萬行，內住無縛無脫</td></tr></tbody></table><table class="c46p3-tbl"><caption>三、中論四句對位與終極統合</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>對應一</td><td>大莊嚴事如聖王（教化眾生淨佛世界五神通）⇄ 因緣所生法——菩薩外在願行皆是因緣所生，承認現象界的緣起</td></tr><tr><td>對應二</td><td>本性畢竟空無作（薩婆若無作、作者不可得）⇄ 我說即是空——無作是本品存有論核心，對應緣起無自性即空</td></tr><tr><td>對應三</td><td>幻人幻法無縛解（凡夫法虛、二乘解假）⇄ 亦為是假名——無縛無脫非否定縛解事實，而是解構縛解為假名</td></tr><tr><td>對應四</td><td>留惑度生是中道（不縛入世、不解證空）⇄ 亦是中道義——留惑潤生而不墮輪迴，證空而不入涅槃</td></tr><tr><td>全品總結金句</td><td>大莊嚴相，所謂不縛不解——以自相空為基（本體論）、非作非不作為樞（因果論）、無縛無脫為頂（解脫論）</td></tr><tr><td>記憶心法</td><td>無大莊嚴・是名大莊嚴——菩薩行於有所為之事業中，而於有所為心無所住，住此般若道中凡所行皆是真實大莊嚴</td></tr></tbody></table><p class="c46p3-note">本品以須菩提一句奇崛之言「無大莊嚴為大莊嚴」開篇，經三重破執階梯——先以自相空化解「畏難退心」，再以非作非不作深入「有所造作」的存有論解構，終以富樓那「誰縛誰解」的終極逼問，導出「不縛不解菩薩道」。龍樹六重破執徹底摧毀對修行過程、對治工具（空）、絕對真理（法性）、終極果位（佛）的一切實體造作妄執，凡聖二破更揭示：凡夫法虛誑非縛、聖人法畢竟空非解，縛解本是相待假名。全品四大命題完美對位《中論》因緣、空、假名、中道四句，凝成一語總持——無大莊嚴，是名大莊嚴：在因緣中行而不執因緣，在空中立而不墮空，在假名中度而不執假，於中道安住而不離世間。</p></div></div>
+<script id="wy-c46p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c46p3Btn"),BOX=document.getElementById("c46p3Box"),MODAL=document.getElementById("c46p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c46p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C46P3:END-->
 </body>
 </html>
